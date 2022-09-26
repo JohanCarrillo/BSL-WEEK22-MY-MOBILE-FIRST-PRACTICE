@@ -4,40 +4,38 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="main.css" />
-		<script src="https://kit.fontawesome.com/89accbfdf9.js" crossorigin="anonymous"></script>
+		<link class="services-item" nk rel="stylesheet" href="main.css" />
+		<script
+			src="https://kit.fontawesome.com/89accbfdf9.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Mobile First</title>
 	</head>
 	<body>
 		<header>
 			<!-- <div></div> -->
 			<nav>
-				<p>SOFTGRAY</p>
-				<p>PRODUCTS</p>
-				<p>SERVICES</p>
-				<p>ABOUT</p>
-				<p>JOBS</p>
-				<p>CONTACT</p>
-				<p>+81-0000-0000</p>
+				<p id="logo" class="black-bold"><a href="#">SOFTGRAY</a></p>
+				<p><a class="gray-text" href="#">PRODUCTS</a></p>
+				<p><a class="gray-text" href="#">SERVICES</a></p>
+				<p><a class="gray-text" href="#">ABOUT</a></p>
+				<p><a class="gray-text" href="#">JOBS</a></p>
+				<p><a class="gray-text" href="#">CONTACT</a></p>
+				<p id="contact-number" class="black-bold">+81-0000-0000</p>
 			</nav>
 			<!-- try with self align -->
 		</header>
 
 		<main>
-			<section">
-				<!-- add cover image as background -->
-				<h1>Creative Solutions</h1>
-				<div>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-					enim ad minim veniam, quis nostrud exercitation ullamco laboris
-					nisi ut aliquip ex ea commodo consequat.
-				</div>
+			<section id="cover">
+				<img src="https://i.ibb.co/KmrwJ3N/cover.jpg" alt="cover image" />
 			</section>
 			<section>
-				<ul>
-					<li>
-						<div><i class="fa-regular fa-comment"></i></div>
+				<ul id="services">
+					<li class="services-item">
+						<div class="icon-container">
+							<i class="fa-regular fa-comment"></i>
+						</div>
 						<h3>Consulting</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -46,8 +44,8 @@
 							nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</li>
-					<li>
-						<div><i class="fa-solid fa-code"></i></div>
+					<li class="services-item">
+						<div class="icon-container"><i class="fa-solid fa-code"></i></div>
 						<h3>Developing</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -56,8 +54,8 @@
 							nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</li>
-					<li>
-						<div><i class="fa-solid fa-pencil"></i></div>
+					<li class="services-item">
+						<div class="icon-container"><i class="fa-solid fa-pencil"></i></div>
 						<h3>Designing</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -66,8 +64,8 @@
 							nisi ut aliquip ex ea commodo consequat.
 						</p>
 					</li>
-					<li>
-						<div><i class="fa-solid fa-gears"></i></div>
+					<li class="services-item">
+						<div class="icon-container"><i class="fa-solid fa-gears"></i></div>
 						<h3>Analysis</h3>
 						<p>
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
